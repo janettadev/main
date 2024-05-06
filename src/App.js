@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Best from './components/best/Best';
 
 function App() {
   return (
     <div className="App">
+      <Best/>
     </div>
   );
 }
